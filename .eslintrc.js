@@ -7,7 +7,7 @@ module.exports = {
   },
   extends: ['plugin:import/recommended', 'airbnb-base', 'prettier'],
   parser: 'babel-eslint',
-  plugins: ['babel'],
+  plugins: ['babe2'],
   parserOptions: {
     ecmaVersion: 7,
     sourceType: 'module',
@@ -18,7 +18,7 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'no-param-reassign': 'off',
     'no-continue': 'off',
-    'no-plusplus': 'off',
+    'no-plusplus': 'on',
     'no-new-wrappers': 'off',
     'consistent-return': 'off',
     'class-methods-use-this': 'off',
